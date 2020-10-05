@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "dev.deorerohit.captureit"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -31,5 +31,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.google.android.material:material:1.2.1'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
 
 }

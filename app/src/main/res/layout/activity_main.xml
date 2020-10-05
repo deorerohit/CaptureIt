@@ -6,12 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <ImageView
+   <!--<ImageView
        android:id="@+id/imageView"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:layout_above="@id/add_floating_btn"
-       android:layout_margin="8dp"/>
+       android:layout_margin="8dp"/>-->
+
+   <GridView
+       android:id="@+id/gridview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:numColumns="3"
+       android:horizontalSpacing="10dp"
+       android:verticalSpacing="10dp"
+       android:gravity="center"
+       android:stretchMode="columnWidth"
+       android:scrollbars="vertical">
+
+
+
+   </GridView>
 
 
 
